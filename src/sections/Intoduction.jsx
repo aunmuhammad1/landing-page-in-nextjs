@@ -12,7 +12,9 @@ export default function Intoduction() {
             </div>
 
             <div className="intro-info">
-                <h2>We provide<br/><span>solutions</span><br/>for your business!</h2>
+                <h2>Empower Your Computer Vision Projects  <br/>with <span>Trinzz</span></h2>
+                <p>Unlock the Potential of Computer Vision with Trinzz's Fine Tuning Services</p>
+                <p>Trinzz specializes in fine-tuning computer vision models using cutting-edge automation and in-house expertise. Our streamlined approach ensures rapid delivery of custom computer vision models and fine-tuning services, setting new records for speed and efficiency.</p>
                 <div>
                     <a href="#about" className="btn-get-started scrollto">Get Started</a>
                     <a href="#services" className="btn-services scrollto">Our Services</a>

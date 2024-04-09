@@ -10,7 +10,7 @@ export default function Header() {
         <div className="container">
 
         <div className="logo float-left">
-            {/* <h1 className="text-light"><a href="#header"><span>NewBiz</span></a></h1> */}
+            <h1 className="text-light"><a href="#header"><span>TRINZZ</span></a></h1>
             <a href="#intro" className="scrollto"><img src='' alt="" className="img-fluid"/></a>
         </div>
 

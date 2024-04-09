@@ -1,15 +1,6 @@
 import React from 'react'
 import '../App.css'
-import App1 from "./img/portfolio/app1.jpg";
-import App2 from "./img/portfolio/app2.jpg";
-import App3 from "./img/portfolio/app3.jpg";
-import Card1 from "./img/portfolio/card1.jpg";
-import Card2 from "./img/portfolio/card2.jpg";
-import Card3 from "./img/portfolio/card3.jpg";
-import Web1 from "./img/portfolio/web1.jpg";
-import Web2 from "./img/portfolio/web2.jpg";
-import Web3 from "./img/portfolio/web3.jpg";
-
+import { cardData } from './cardData'
 
 export default function Portfolio() {
   return (
@@ -20,7 +11,7 @@ export default function Portfolio() {
           <h3 className="section-title">Our Portfolio</h3>
         </header>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" className="filter-active">All</li>
@@ -29,11 +20,11 @@ export default function Portfolio() {
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="row portfolio-container">
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
               <img src={App1} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -45,9 +36,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
             <div className="portfolio-wrap">
               <img src={Web3} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -59,9 +50,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
             <div className="portfolio-wrap">
               <img src={App2} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -73,9 +64,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img src={Card2} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -87,9 +78,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
             <div className="portfolio-wrap">
               <img src={Web2} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -101,9 +92,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
             <div className="portfolio-wrap">
               <img src={App3} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -115,9 +106,25 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+          {cardData.map((card) => (
+          
+          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="portfolio-wrap">
+              <img src={card.image} className="img-fluid" alt=""/>
+              <div className="portfolio-info">
+                <h4><a href="#">{card.name}</a></h4>
+                <p>{card.disc}</p>
+                <div>
+                  <a href="#" className="link-preview" data-lightbox="portfolio" data-title={card.name} title="Preview"><i className="ion ion-eye"></i></a>
+                  <a href="#" className="link-details" title="More Details"><i className="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          ))}
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img src={Card1} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -129,9 +136,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
             <div className="portfolio-wrap">
               <img src={Card3} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -143,9 +150,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
             <div className="portfolio-wrap">
               <img src={Web1} className="img-fluid" alt=""/>
               <div className="portfolio-info">
@@ -157,7 +164,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
 

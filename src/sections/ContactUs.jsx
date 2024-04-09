@@ -8,6 +8,8 @@ export default function ContactUs() {
 
             <div className="section-header">
             <h3>Contact Us</h3>
+            <p>Ready to Elevate Your Computer Vision Projects?</p>
+            <p>Contact us today to learn more about our fine-tuning services and how Trinzz can help you achieve your computer vision goals. Our team is here to support you every step of the way.</p>
             </div>
 
             <div className="row wow fadeInUp">

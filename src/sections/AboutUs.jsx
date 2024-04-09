@@ -4,39 +4,47 @@ import AboutIMG from  './img/about-img.svg';
 import AboutExtra1 from './img/about-extra-1.svg';
 import AboutExtra2 from './img/about-extra-2.svg';
 
+import InsightsIcon from '@mui/icons-material/Insights';
+import AccountBox from '@mui/icons-material/AccountBox';
+
+
 export default function AboutUs() {
     return (
         <section id="about">
             <div className="container">
 
                 <header className="section-header">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3>Our Comprehensive Services</h3>
+                    <p>Accelerate Your Computer Vision Projects with Trinzz</p>
                 </header>
 
                 <div className="row about-container">
 
                     <div className="col-lg-6 content order-lg-1 order-2">
-                        <p>
+                        {/* <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
+                        </p> */}
 
                         <div className="icon-box wow fadeInUp">
-                            <div className="icon"><i className="fa fa-shopping-bag"></i></div>
-                            <h4 className="title"><a href="">Eiusmod Tempor</a></h4>
-                            <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                            <div className="icon"><i className="fa fa-code"></i></div>
+                            <h4 className="title"><a href="">Custom Model Development</a></h4>
+                            <p className="description">Harness the power of our in-house computer vision expertise to develop custom models tailored to your specific needs.</p>
                         </div>
 
                         <div className="icon-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div className="icon"><i className="fa fa-photo"></i></div>
-                            <h4 className="title"><a href="">Magni Dolores</a></h4>
-                            <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <div className="icon">
+                                <InsightsIcon color="primary" />
+                            </div>
+                            <h4 className="title"><a href="">Automated Fine Tuning</a></h4>
+                            <p className="description">Utilize our advanced automation techniques to fine-tune your models with unprecedented speed and accuracy.</p>
                         </div>
 
                         <div className="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                            <div className="icon"><i className="fa fa-bar-chart"></i></div>
-                            <h4 className="title"><a href="">Dolor Sitema</a></h4>
-                            <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                            <div className="icon">
+                                <AccountBox color="primary" />
+                            </div>
+                            <h4 className="title"><a href="">Expert Guidance</a></h4>
+                            <p className="description">Benefit from the guidance of our experienced team, who will work closely with you to ensure the success of your computer vision projects.</p>
                         </div>
                     </div>
 

@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 footer-info">
                             <h3>Trinzz</h3>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                            <p>Trinzz specializes in fine-tuning computer vision models using cutting-edge automation and in-house expertise. Our streamlined approach ensures rapid delivery of custom computer vision models and fine-tuning services, setting new records for speed and efficiency.</p>
                         </div>
 
                         <div className="col-lg-2 col-md-6 footer-links">
@@ -45,7 +45,8 @@ export default function Footer() {
 
                         <div className="col-lg-3 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                            <p>Greetings, Visionaries!</p>
+                            <p>At Trinzz, we're passionate about propelling your projects into the future with our state-of-the-art computer vision fine-tuning services. Our mission is to bridge the gap between your vision and its realization with unparalleled speed and precision.</p>
                             <form action="" method="post">
                                 <input type="email" name="email"/><input type="submit"  value="Subscribe"/>
                             </form>
