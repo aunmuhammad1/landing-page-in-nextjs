@@ -47,8 +47,8 @@ export default function Header1({
                                     <div className="logo">
                                         <Link href="/" className="header-logo">
                                             <img src="/assets/img/logo/logo.png" style={{
-                                                width: '164px',
-                                                height: '57px'
+                                                width: '203px',
+                                                height: '61px'
                                             }} alt="logo-img" />
                                         </Link>
                                     </div>

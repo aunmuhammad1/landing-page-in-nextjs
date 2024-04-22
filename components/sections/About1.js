@@ -69,28 +69,14 @@ export default function About1() {
                                                 <img src="/assets/img/about/icon-3.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
-                                                <h4>At Fraction of Costs</h4>
+                                                <h4>Lower Costs</h4>
                                                 <p>
-                                                    Custom datasets and fine-tuning starting from $50 only
+                                                    Custom datasets and fine-tuning
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="about-author">
-                                        <div className="about-button wow fadeInUp" data-wow-delay=".5s">
-                                            <Link href="/about" className="theme-btn">
-                                                Explore More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
-                                        </div>
-                                        <div className="author-image wow fadeInUp" data-wow-delay=".7s">
-                                            <img src="/assets/img/about/author.png" alt="author-img" />
-                                            <div className="content">
-                                                <h6>Ronald Richards</h6>
-                                                <p>Co, Founder</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>

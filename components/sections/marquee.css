@@ -1,0 +1,15 @@
+.slider_txt{
+    font-size: x-large;
+}
+.star{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+.marquee-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

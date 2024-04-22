@@ -22,14 +22,13 @@ export default function Home() {
                 <Hero1 />
                 <Marque1 />
                 <About1 />
-                <Brand1 />
                 <Service1 />
                 <Achievement1 />
+                <Brand1 />
                 <Project1 />
                 <Marque2 />
                 <Testimonial1 />
                 <Team1 />
-                <Pricing1 />
                 <Faq1 />
                 <News1 />
                 <Cta1 />

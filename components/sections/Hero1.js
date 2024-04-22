@@ -28,7 +28,7 @@ export default function Hero1() {
                                 <h6 className="wow fadeInUp" data-wow-delay=".2s">BEST COMPUTER VISION TECH STACK</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
                                 Speed up your Computer 
-                                Vision Projects
+                                Vision
                                 </h1>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">
                                 Revolutionize your computer vision strategy with cutting-edge tools and unparalleled

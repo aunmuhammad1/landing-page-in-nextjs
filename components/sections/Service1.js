@@ -45,8 +45,18 @@ export default function Service1() {
                         <div className="section-title">
                             <span className="wow fadeInUp">IT services</span>
                             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                We Solve IT Problems <br /> With Technology
+                                Incorporate and customize any foundational  <br/>
+                                model into your workflow
                             </h2>
+                            <p className="wow fadeInUp" style={{
+                                marginTop: '20px',
+                            }}  data-wow-delay=".3s">
+                                Trinzz selects models from esteemed sources such as OpenAI, Meta AI, and other
+                                renowned open source repositories, tailoring the best-fit model for your needs. With
+                                built-in automated dataset curation, customizable training, and reinforcement feedback
+                                loops, Trinzz guarantees 60% enhanced accuracy and 75% faster fine-tuning while
+                                reducing costs significantly.
+                            </p>
                         </div>
                         <div className="array-button">
                             <button className="array-prev"><i className="fal fa-arrow-right" /></button>
@@ -70,10 +80,7 @@ export default function Service1() {
                                             <p>
                                                 Customize models to accommodate certain needs and objectives
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
-                                                read More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
+                                            
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -91,10 +98,7 @@ export default function Service1() {
                                             <p>
                                                 Personalize training model and fine-tune with your unique data
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
-                                                read More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
+                                            
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -112,10 +116,7 @@ export default function Service1() {
                                             <p>
                                                 Automate Building or Curating datasets to match your exact needs
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
-                                                read More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
+                                            
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -133,20 +134,13 @@ export default function Service1() {
                                             <p>
                                             Automate feedback loops to eliminate false positives and other model flaws.
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
-                                                read More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
+                                            
                                         </div>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
                         </div>
-                        <div className="service-text wow fadeInUp" data-wow-delay=".4s">
-                            <h6>
-                                Need Any Kind Of IT Solution For Your Business.  <Link href="/service">View Services </Link>
-                            </h6>
-                        </div>
+                        {/*  */}
                     </div>
                 </div>
             </section>
