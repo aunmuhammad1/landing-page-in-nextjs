@@ -1109,7 +1109,7 @@ span {
 .contact-wrapper .contact-image .frame-shape {
   position: absolute;
   left: -47px;
-  bottom: -14px;
+  bottom: -10px;
   animation: rounded 5s linear infinite;
 }
 .contact-wrapper .contact-content {
@@ -1436,7 +1436,7 @@ span {
 }
 @media (max-width: 1399px) {
   .cta-wrapper .cta-items {
-    margin-left: 350px;
+    margin-left: 373px;
   }
 }
 @media (max-width: 1199px) {
@@ -4065,7 +4065,7 @@ span {
 }
 .hero-1 .frame-shape {
   position: absolute;
-  bottom: 13%;
+  bottom: 25%;
   left: 32%;
   animation: rounded 5s linear infinite;
 }
@@ -4734,9 +4734,6 @@ span {
   .text-slider {
     font-size: 36px;
   }
-}
-.text-slider img {
-  margin-bottom: 10px;
 }
 
 .marquee-inner {
@@ -6945,7 +6942,7 @@ input.main-search-input::placeholder {
 .team-wrapper .team-items {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 30px;
   margin-top: 30px;
   padding: 35px 0;
   position: relative;

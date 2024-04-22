@@ -4,6 +4,12 @@ import ProjectSlider1 from '../slider/ProjectSlider1'
 export default function Project1() {
     return (
         <>
+        <div style={{
+            marginLeft: "75px",
+            marginRight: "75px",
+        }} >
+            <hr/>
+        </div>
             <section className="project-section section-padding pt-0 fix" id="project">
                 <h3 style={{
                     textAlign: "center",

@@ -17,9 +17,18 @@ export default function Cta1() {
                             <img src="/assets/img/cta.png" alt="cta-img" />
                         </div>
                         <div className="cta-items">
-                            <h3 className="wow fadeInUp" data-wow-delay=".5s">Stay Connected With <br /> Cutting Edge IT</h3>
-                            <Link href="/contact" className="theme-btn bg-white wow fadeInUp" data-wow-delay=".7s">
-                                get A Quote
+                            <h3 className="wow fadeInUp" data-wow-delay=".5s">Start Building With
+Cutting Edge Infrastructure</h3>
+                            <Link href="/contact" className="bg-white wow fadeInUp" style={{
+                                display: "flex",
+                                flexDirection: "row",
+                                justifyContent: "space-between",
+                                alignItems: "center",
+                                padding: '1rem',
+                                marginTop: '1rem',
+                                width: '255px',
+                            }} data-wow-delay=".7s">
+                                <p>Get A Quote</p>
                                 <i className="fa-solid fa-arrow-right-long" />
                             </Link>
                         </div>

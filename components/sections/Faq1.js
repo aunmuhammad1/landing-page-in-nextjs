@@ -16,19 +16,23 @@ export default function Faq1() {
                 <div className="container">
                     <div className="faq-wrapper">
                         <div className="row g-4">
-                            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div className="col-lg-6 wow fadeInUp"  style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center"
+                            }} data-wow-delay=".4s">
                                 <div className="faq-image">
                                     <img src="/assets/img/faq/faq.png" alt="faq-img" />
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="faq-content">
-                                    <div className="section-title">
-                                        <span className="wow fadeInUp">See Our Faqs</span>
-                                        <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            Keep Your Business Safe &amp; <br /> Ensure High Availability
-                                        </h2>
-                                    </div>
+                                    <p style={{
+                                        fontSize: "1.5rem",
+                                        fontWeight: "bold",
+                                        color: "#000",
+                                        marginBottom: "1.5rem"
+                                    }} >FAQs</p>
                                     <div className="faq-accordion mt-4 mt-md-0">
                                         <Accordion1 />
                                     </div>

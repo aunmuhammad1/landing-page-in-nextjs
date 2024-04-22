@@ -13,6 +13,7 @@ import Project1 from "@/components/sections/Project1"
 import Service1 from "@/components/sections/Service1"
 import Team1 from "@/components/sections/Team1"
 import Testimonial1 from "@/components/sections/Testimonial1"
+import Section from "@/components/sections/Section"
 export default function Home() {
 
     return (
@@ -24,12 +25,12 @@ export default function Home() {
                 <About1 />
                 <Service1 />
                 <Achievement1 />
+                <Section/>
                 <Brand1 />
                 <Project1 />
                 <Testimonial1 />
                 <Team1 />
                 <Faq1 />
-                <News1 />
                 <Cta1 />
             </Layout>
         </>
