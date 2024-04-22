@@ -22,125 +22,57 @@ const swiperOptions = {
             slidesPerView: 4,
         },
         991: {
-            slidesPerView: 3,
+            slidesPerView: 4,
         },
         767: {
-            slidesPerView: 2,
+            slidesPerView: 3,
         },
         650: {
-            slidesPerView: 2,
+            slidesPerView: 3,
         },
 
         575: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
 
         0: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
     },
 }
 export default function ProjectSlider1({ showDots }) {
+
+    const evennumber = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
+    const oddnumber = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+
     return (
         <>
             <div className="swiper project-slider pt-5">
                 <Swiper {...swiperOptions} className="swiper-wrapper">
-                    <SwiperSlide>
-                        <div className="project-items">
-                            <div className="project-image">
-                                <img src="/assets/img/project/01.jpg" alt="project-img" />
-                                <div className="project-content">
-                                    <p>Technology</p>
-                                    <h4>
-                                        <Link href="/project-details">Platform Integration</Link>
-                                    </h4>
-                                    <Link href="/project-details" className="icon">
-                                        <i className="fa-solid fa-arrow-right" />
-                                    </Link>
+                    {oddnumber.map((number, index) => (
+                        <SwiperSlide key={index}>
+                            <div className="project-items">
+                                <div className="project-image">
+                                    <img src={`/assets/img/project/${number}.jpg`} alt="project-img" />
                                 </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="project-items">
-                            <div className="project-image">
-                                <img src="/assets/img/project/02.jpg" alt="project-img" />
-                                <div className="project-content">
-                                    <p>Security</p>
-                                    <h4>
-                                        <Link href="/project-details">Network Security</Link>
-                                    </h4>
-                                    <Link href="/project-details" className="icon">
-                                        <i className="fa-solid fa-arrow-right" />
-                                    </Link>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+                <div style={{
+                    marginBottom: "30px",
+                }} 
+                ></div>
+                <Swiper {...swiperOptions} className="swiper-wrapper">
+                    {evennumber.map((number, index) => (
+                        <SwiperSlide key={index}>
+                            <div className="project-items">
+                                <div className="project-image">
+                                    <img src={`/assets/img/project/${number}.jpg`} alt="project-img" />
                                 </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="project-items">
-                            <div className="project-image">
-                                <img src="/assets/img/project/03.jpg" alt="project-img" />
-                                <div className="project-content">
-                                    <p>Solution</p>
-                                    <h4>
-                                        <Link href="/project-details">Web Development</Link>
-                                    </h4>
-                                    <Link href="/project-details" className="icon">
-                                        <i className="fa-solid fa-arrow-right" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="project-items">
-                            <div className="project-image">
-                                <img src="/assets/img/project/04.jpg" alt="project-img" />
-                                <div className="project-content">
-                                    <p>Technology</p>
-                                    <h4>
-                                        <Link href="/project-details">IT Management</Link>
-                                    </h4>
-                                    <Link href="/project-details" className="icon">
-                                        <i className="fa-solid fa-arrow-right" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="project-items">
-                            <div className="project-image">
-                                <img src="/assets/img/project/03.jpg" alt="project-img" />
-                                <div className="project-content">
-                                    <p>Solution</p>
-                                    <h4>
-                                        <Link href="/project-details">Web Development</Link>
-                                    </h4>
-                                    <Link href="/project-details" className="icon">
-                                        <i className="fa-solid fa-arrow-right" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="project-items">
-                            <div className="project-image">
-                                <img src="/assets/img/project/04.jpg" alt="project-img" />
-                                <div className="project-content">
-                                    <p>Technology</p>
-                                    <h4>
-                                        <Link href="/project-details">IT Management</Link>
-                                    </h4>
-                                    <Link href="/project-details" className="icon">
-                                        <i className="fa-solid fa-arrow-right" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
+                        </SwiperSlide>
+                    ))}
                 </Swiper>
 
                 {showDots &&

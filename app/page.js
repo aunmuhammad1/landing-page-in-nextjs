@@ -26,7 +26,6 @@ export default function Home() {
                 <Achievement1 />
                 <Brand1 />
                 <Project1 />
-                <Marque2 />
                 <Testimonial1 />
                 <Team1 />
                 <Faq1 />

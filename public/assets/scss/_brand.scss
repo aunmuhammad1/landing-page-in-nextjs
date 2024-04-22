@@ -2,7 +2,7 @@
     h6 {
         font-size: 22px;
         position: relative;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         color: $header-color;
         font-weight: 600;
 
@@ -55,12 +55,6 @@
 }
 
 .brand-wrapper-2 {
-    margin-bottom: -10px;
-    
-    @include breakpoint (max-xl){
-        margin-top: -7px;
-    }
-
     .brand-img {
         text-align: center;
     }
