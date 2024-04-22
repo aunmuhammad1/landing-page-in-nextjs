@@ -25,13 +25,16 @@ export default function Hero1() {
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-8">
                             <div className="hero-content">
-                                <h6 className="wow fadeInUp" data-wow-delay=".2s">Best it SOULTION Provider</h6>
+                                <h6 className="wow fadeInUp" data-wow-delay=".2s">BEST COMPUTER VISION TECH STACK</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                    Excellent It Services
-                                    for Your Success
+                                Speed up your Computer 
+                                Vision Projects
                                 </h1>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">
-                                    Consectetur adipiscing elit aenean scelerisque at augue vitae consequat <br /> quisque eget congue velit in cursus leo sed sodales est eget turpis.
+                                Revolutionize your computer vision strategy with cutting-edge tools and unparalleled
+                                expertise. Built for enterprises, Trinzz is set to become the preferred choice for industry
+                                leaders.
+
                                 </p>
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">

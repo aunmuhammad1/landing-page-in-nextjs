@@ -32,13 +32,14 @@ export default function About1() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT INFOTECK</span>
+                                        <span className="wow fadeInUp">Redefining Computer Vision</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            We Are Increasing Business Success With <span>Technology</span>
+                                            <span>Trinzz</span> is the computer CV stack for your project
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                    Revolutionize your computer vision strategy with cutting-edge tools and unparalleled
+                                    expertise. Trinzz is set to be the preferred choice for industry leaders.
                                     </p>
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -46,9 +47,9 @@ export default function About1() {
                                                 <img src="/assets/img/about/icon-2.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
-                                                <h4>Problem Solving</h4>
+                                                <h4>Faster Training</h4>
                                                 <p>
-                                                    Aliquam erat volutpat Nullam imperdiet
+                                                    Automated dataset curation and annotation tool
                                                 </p>
                                             </div>
                                         </div>
@@ -57,9 +58,20 @@ export default function About1() {
                                                 <img src="/assets/img/about/icon-3.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
-                                                <h4>Mission &amp; Vision</h4>
+                                                <h4>Higher Accuracy</h4>
                                                 <p>
-                                                    Aliquam erat volutpat Nullam imperdiet
+                                                    Remove last bit of errors and hallucination
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="icon-items wow fadeInUp" data-wow-delay=".9s">
+                                            <div className="icon">
+                                                <img src="/assets/img/about/icon-3.svg" alt="icon-img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>At Fraction of Costs</h4>
+                                                <p>
+                                                    Custom datasets and fine-tuning starting from $50 only
                                                 </p>
                                             </div>
                                         </div>

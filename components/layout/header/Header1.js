@@ -46,7 +46,10 @@ export default function Header1({
                                 <div className="header-left">
                                     <div className="logo">
                                         <Link href="/" className="header-logo">
-                                            <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                                            <img src="/assets/img/logo/logo.png" style={{
+                                                width: '164px',
+                                                height: '57px'
+                                            }} alt="logo-img" />
                                         </Link>
                                     </div>
                                 </div>
@@ -54,11 +57,11 @@ export default function Header1({
                                     <div className="mean__menu-wrapper">
                                         <div className="main-menu">
                                             <nav id="mobile-menu">
-                                                {onePageNav ?
+                                                {/* {onePageNav ?
                                                     <OnePageNav />
                                                     :
                                                     <Menu />
-                                                }
+                                                } */}
                                             </nav>
                                         </div>
                                     </div>
