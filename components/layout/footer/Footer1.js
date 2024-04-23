@@ -13,8 +13,18 @@ export default function Footer1() {
                         <img src="/assets/img/footer-shape-2.png" alt="shape-img" />
                     </div>
                     <div className="container">
-                        <div className="row">
-                            <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div className="row" style={{
+                            display: "flex",
+                            justifyContent: "space-evenly"
+
+                        }} >
+                            <div className="wow fadeInUp" style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                                flexDirection: "column",
+                                width: "42%"
+                            }} data-wow-delay=".3s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <Link href="/">
@@ -23,51 +33,48 @@ export default function Footer1() {
                                     </div>
                                     <div className="footer-content">
                                         <p>
-                                            Phasellus ultricies aliquam volutpat
-                                            ullamcorper laoreet neque, a lacinia
-                                            curabitur lacinia mollis
+                                        Trinzz is at the forefront of researching the latest advancements in computer vision and visual processing technologies to redefine your computer vision experience. Unleash your possibilities, create compelling outcomes, and elevate your applications with Trinzz.
                                         </p>
                                         <div className="social-icon d-flex align-items-center">
-                                            <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                            <Link href="#"><i className="fab fa-twitter" /></Link>
-                                            <Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
-                                            <Link href="#"><i className="fa-brands fa-youtube" /></Link>
+                                            <Link href="https://twitter.com/TrinzzVideo"><i className="fab fa-twitter" /></Link>
+                                            <Link href="https://www.linkedin.com/company/trinzz/"><i className="fa-brands fa-linkedin-in" /></Link>
+                                            <Link href="https://www.youtube.com/@Trinzz"><i className="fa-brands fa-youtube" /></Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
+                            <div className="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <h3>Quick Links</h3>
                                     </div>
                                     <ul className="list-area">
                                         <li>
-                                            <Link href="/about">
+                                            <Link href="#">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Infotech About
+                                                Trinzz About
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service">
+                                            <Link href="#">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 Our Services
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/news">
+                                            <Link href="#">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 Our Blogs
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/faq">
+                                            <Link href="#">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 FAQ’S
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact">
+                                            <Link href="#">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 Contact Us
                                             </Link>
@@ -75,7 +82,7 @@ export default function Footer1() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                            {/* <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                                 <div className="single-footer-widget style-margin">
                                     <div className="widget-head">
                                         <h3>Recent Posts</h3>
@@ -121,8 +128,10 @@ export default function Footer1() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
+                            </div> */}
+                            <div className="wow fadeInUp" style={{
+                                width: "25%"
+                            }}   data-wow-delay=".9s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <h3>Contact Us</h3>
@@ -131,7 +140,7 @@ export default function Footer1() {
                                         <ul className="contact-info">
                                             <li>
                                                 <i className="fas fa-map-marker-alt" />
-                                                6391 Elgin St. Celina, USA
+                                                5501 DeMarcus Blvd, Apartment 242, Dublin, California 94568
                                             </li>
                                             <li>
                                                 <i className="fa-solid fa-phone-volume" />
@@ -139,7 +148,7 @@ export default function Footer1() {
                                             </li>
                                             <li>
                                                 <i className="fa-regular fa-envelope" />
-                                                <Link href="/mailto:infotech@gmail.com">Infotech@gmail.com</Link>
+                                                <Link href="mailto:hello@trinzz.com">hello@trinzz.com</Link>
                                             </li>
                                         </ul>
                                         <Link href="/contact" className="theme-btn hover-white mt-4">
@@ -156,7 +165,7 @@ export default function Footer1() {
                     <div className="container">
                         <div className="footer-wrapper d-flex align-items-center justify-content-between">
                             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
+                                © All Copyright {new Date().getFullYear()} by <Link href="/">Trinzz</Link>
                             </p>
                             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                                 <li>

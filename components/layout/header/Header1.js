@@ -20,7 +20,7 @@ export default function Header1({
                             <ul className="contact-list">
                                 <li>
                                     <i className="far fa-envelope" />
-                                    <Link href="/mailto:info@example.com" className="link">info@example.com</Link>
+                                    <Link href="mailto:hello@trinzz.com" className="link">hello@trinzz.com</Link>
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-phone-volume" />
@@ -29,11 +29,10 @@ export default function Header1({
                             </ul>
                             <div className="top-right">
                                 <div className="social-icon d-flex align-items-center">
-                                    <span>Follow Us:</span>
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="#"><i className="fab fa-twitter" /></Link>
-                                    <Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
-                                    <Link href="#"><i className="fa-brands fa-youtube" /></Link>
+                                    <span>Follow Us: </span>
+                                    <Link href="https://twitter.com/TrinzzVideo"><i className="fab fa-twitter" /></Link>
+                                    <Link href="https://www.linkedin.com/company/trinzz/"><i className="fa-brands fa-linkedin-in" /></Link>
+                                    <Link href="https://www.youtube.com/@Trinzz"><i className="fa-brands fa-youtube" /></Link>
                                 </div>
                             </div>
                         </div>

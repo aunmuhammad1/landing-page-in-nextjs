@@ -25,7 +25,7 @@ export default function Offcanvas({
                                 </div>
                             </div>
                             <p className="text d-none d-lg-block">
-                                Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                            Trinzz is at the forefront of researching the latest advancements in computer vision and visual processing technologies to redefine your computer vision experience. Unleash your possibilities, create compelling outcomes, and elevate your applications with Trinzz.
                             </p>
                             <div className="d-none d-md-block d-lg-none">
                                 <MobileMenu />
@@ -39,7 +39,7 @@ export default function Offcanvas({
                                             <i className="fal fa-map-marker-alt" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link target="_blank" href="#">Main Street, Melbourne, Australia</Link>
+                                            <Link target="_blank" href="#">Address: 5501 DeMarcus Blvd, Apartment 242, Dublin, California 94568</Link>
                                         </div>
                                     </li>
                                     <li className="d-flex align-items-center">
@@ -47,7 +47,7 @@ export default function Offcanvas({
                                             <i className="fal fa-envelope" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link href="/mailto:info@azent.com"><span className="mailto:info@example.com">info@example.com</span></Link>
+                                            <Link href="mailto:hello@trinzz.com"><span className="mailto:info@example.com">hello@trinzz.com</span></Link>
                                         </div>
                                     </li>
                                     <li className="d-flex align-items-center">
@@ -73,10 +73,9 @@ export default function Offcanvas({
                                     </Link>
                                 </div>
                                 <div className="social-icon d-flex align-items-center">
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="#"><i className="fab fa-twitter" /></Link>
-                                    <Link href="#"><i className="fab fa-youtube" /></Link>
-                                    <Link href="#"><i className="fab fa-linkedin-in" /></Link>
+                                    <Link href="https://twitter.com/TrinzzVideo"><i className="fab fa-twitter" /></Link>
+                                    <Link href="https://www.youtube.com/@Trinzz"><i className="fab fa-youtube" /></Link>
+                                    <Link href="https://www.linkedin.com/company/trinzz/"><i className="fab fa-linkedin-in" /></Link>
                                 </div>
                             </div>
                         </div>

@@ -37,7 +37,7 @@ export default function Hero1() {
 
                                 </p>
                                 <div className="hero-button">
-                                    <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
+                                    <Link href="#" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
                                         Explore More
                                         <i className="fa-solid fa-arrow-right-long" />
                                     </Link>

@@ -41,7 +41,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>Make a Quote</p>
                                                         <h3>
-                                                            <Link href="/mailto:infotech@gmail.com">Infotech@gmail.com</Link>
+                                                            <Link href="mailto:hello@trinzz.com">hello@trinzz.com</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -55,7 +55,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>Location</p>
                                                         <h3>
-                                                            4517 Washington ave.
+                                                        5501 DeMarcus Blvd, Apartment 242, Dublin, California 94568
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -70,7 +70,7 @@ export default function Contact() {
                                         <div className="contact-content">
                                             <h2>Ready to Get Started?</h2>
                                             <p>
-                                                Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus, eros in auctor ultrices,
+                                            Trinzz is at the forefront of researching the latest advancements in computer vision and visual processing technologies to redefine your computer vision experience. Unleash your possibilities, create compelling outcomes, and elevate your applications with Trinzz.
                                             </p>
                                             <form action="contact.php" id="contact-form" method="POST" className="contact-form-items">
                                                 <div className="row g-4">
