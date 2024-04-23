@@ -25,39 +25,39 @@ export default function Team1() {
                     }} >
                         <div className="team-wrapper">
                             <div className="team-items bor-top wow fadeInUp" data-wow-delay=".3s">
-                            <i class="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
+                            <i className="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
                                 <p>
                                 Leverage Trinzz capabilities for accuracy, efficiency and speed, Securely and Scalably
                                 </p>
                             </div>
                             <div className="team-items pt-0 wow fadeInUp" data-wow-delay=".5s">
-                            <i class="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
+                            <i className="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
                                 <p>
                                 Compliant with SOC2 Type 2 standards
                                 </p>
                             </div>
                             <div className="team-items pt-0 wow fadeInUp" data-wow-delay=".7s">
-                            <i class="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
+                            <i className="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
                                 <p>
                                 Encryption of all data in transit and at rest ensuring end-to-end security, with SSL
     transport rated A+ by Qualys
                                 </p>
                             </div>
                             <div className="team-items pt-0 wow fadeInUp" data-wow-delay=".9s">
-                            <i class="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
+                            <i className="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
                                 <p>
                                 Benefit from enterprise-grade infrastructure and regulatory compliance
                                 </p>
                             </div>
                             <div className="team-items pt-0 wow fadeInUp" data-wow-delay=".9s">
-                            <i class="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
+                            <i className="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
                                 <p>
                                 Ready for scale through Google Cloud Platform and Amazon Web Services
     hosting
                                 </p>
                             </div>
                             <div className="team-items pt-0 wow fadeInUp" data-wow-delay=".9s">
-                            <i class="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
+                            <i className="fa-sharp fa-solid fa-square-check" style={{color: '#74C0FC'}}></i>
                                 <p>
                                 Infrastructure compliant with HIPAA, enabling Business Associate Agreements
     execution

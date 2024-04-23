@@ -63,7 +63,7 @@ export default function ProjectSlider1({ showDots }) {
                     marginBottom: "30px",
                 }} 
                 ></div>
-                <Swiper {...swiperOptions} className="swiper-wrapper">
+                <Swiper {...swiperOptions} className="swiper-wrapper" dir="rtl">
                     {evennumber.map((number, index) => (
                         <SwiperSlide key={index}>
                             <div className="project-items">
@@ -74,12 +74,6 @@ export default function ProjectSlider1({ showDots }) {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-
-                {showDots &&
-                    <div className="swiper-dot-2">
-                        <div className="dot-3" />
-                    </div>
-                }
             </div>
         </>
     )

@@ -20,10 +20,10 @@ export default function Preloader() {
                             N
                         </span>
                         <span data-text-preloader="Z" className="letters-loading">
-                            z
+                            Z
                         </span>
-                        <span data-text-preloader="z" className="letters-loading">
-                            z
+                        <span data-text-preloader="Z" className="letters-loading">
+                            Z
                         </span>
                     </div>
                     <p className="text-center">Loading</p>
