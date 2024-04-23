@@ -1,0 +1,91 @@
+
+  /* Container for the entire app */
+  .app-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0px 121px;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    margin-bottom: 50px;
+  }
+  
+  /* Styling for the tab bar */
+  .tab-bar {
+    display: flex;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0.5rem 1rem;
+    justify-content: space-evenly;
+    border-radius: 15px;
+  }
+  
+  /* Styling for individual tabs */
+  .tab-bar button {
+    font-size: 16px;
+    color: #555;
+    background-color: transparent;
+    border: none;
+    margin-right: 2rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  /* Highlight the active tab */
+  .tab-bar .active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Video container styles */
+  .video-container {
+    padding: 4rem 1rem;
+    display: flex;
+  }
+  
+  /* Individual video description */
+  .video-container p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+  
+  /* Play button and video styles to simulate the image's UI */
+  video {
+    width: 50%;
+    margin-left: -80px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Specific styles if you have more customization for the player */
+  .custom-video-player {
+    /* Your custom styles here */
+  }
+  
+  .content-container {
+    padding: 2rem;
+  }
+  
+  .content-container h2 {
+    color: #007bff; /* A blue color for the heading, similar to the active tab color */
+    margin-bottom: 1rem;
+  }
+  
+  .content-container ul {
+    list-style: none; /* Remove default list styling */
+  }
+  
+  .content-container li {
+    display: flex; /* For inline icon and text */
+    align-items: center; /* Center icon with text */
+    margin-bottom: 0.5rem; /* Space between items */
+    font-size: larger;
+  }
+  
+  .content-container img {
+    margin-right: 0.5rem; /* Space between icon and text */
+  }
+  
